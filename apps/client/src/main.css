@@ -1,0 +1,74 @@
+:root {
+    --on-surface: #303030;
+    --twitch: #7831F0;
+    --username: #FF6633;
+    --surface: #FFFFFF;
+    --discord: #8599E0;
+    --twitter: #1DA1F2;
+    --youtube: #FF0000;
+    --lightStroke: rgba(41, 48, 61, 0.3);
+}
+
+.darkMode {
+  --on-surface: #FFFFFF;
+  --twitch: #BF99FF;
+  --username: #FF6633;
+  --surface: #29303D;
+  --discord: #BF99FF;
+  --twitter: #BF99FF;
+  --youtube: #BF99FF;
+  --lightStroke: rgba(255, 255, 255, 0.32);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.onSurface {
+    color: var(--on-surface);
+}
+
+.userNameDisplay {
+    color: var(--username);
+}
+
+.twitchText {
+  color: var(--twitch);
+}
+
+.regular-title {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.large-title {
+    font-family: Archivo, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.regular-body {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.large-body {
+  font-family: Archivo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
